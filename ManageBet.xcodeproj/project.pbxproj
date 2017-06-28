@@ -8,19 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EC012E8F1EE825B200F1D959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC012E8E1EE825B200F1D959 /* AppDelegate.swift */; };
+		EC012E911EE825B200F1D959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC012E901EE825B200F1D959 /* ViewController.swift */; };
 		EC012E941EE825B200F1D959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC012E921EE825B200F1D959 /* Main.storyboard */; };
 		EC012E961EE825B200F1D959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC012E951EE825B200F1D959 /* Assets.xcassets */; };
 		EC012E991EE825B200F1D959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC012E971EE825B200F1D959 /* LaunchScreen.storyboard */; };
 		EC012EA41EE82AC000F1D959 /* ParisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC012EA21EE82AC000F1D959 /* ParisViewController.swift */; };
 		EC012EA51EE82AC000F1D959 /* ParisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC012EA31EE82AC000F1D959 /* ParisViewController.xib */; };
 		EC012EA71EE82F6D00F1D959 /* ParisRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC012EA61EE82F6D00F1D959 /* ParisRetriever.swift */; };
-		ECA1D5C41EE848A6006D0561 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1D5C21EE848A6006D0561 /* HomePageViewController.swift */; };
-		ECA1D5C51EE848A6006D0561 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA1D5C31EE848A6006D0561 /* HomePageViewController.xib */; };
+		EC012EAC1EE8373B00F1D959 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC012EAA1EE8373B00F1D959 /* ResultViewController.swift */; };
+		EC012EAD1EE8373B00F1D959 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC012EAB1EE8373B00F1D959 /* ResultViewController.xib */; };
+		EC012EAF1EE8426500F1D959 /* Pari.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC012EAE1EE8426500F1D959 /* Pari.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC012E8B1EE825B200F1D959 /* ManageBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC012E8E1EE825B200F1D959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC012E901EE825B200F1D959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC012E931EE825B200F1D959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC012E951EE825B200F1D959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC012E981EE825B200F1D959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -28,8 +31,9 @@
 		EC012EA21EE82AC000F1D959 /* ParisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParisViewController.swift; sourceTree = "<group>"; };
 		EC012EA31EE82AC000F1D959 /* ParisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParisViewController.xib; sourceTree = "<group>"; };
 		EC012EA61EE82F6D00F1D959 /* ParisRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParisRetriever.swift; sourceTree = "<group>"; };
-		ECA1D5C21EE848A6006D0561 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		ECA1D5C31EE848A6006D0561 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		EC012EAA1EE8373B00F1D959 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		EC012EAB1EE8373B00F1D959 /* ResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		EC012EAE1EE8426500F1D959 /* Pari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pari.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				EC012E8E1EE825B200F1D959 /* AppDelegate.swift */,
+				EC012E901EE825B200F1D959 /* ViewController.swift */,
 				EC012E921EE825B200F1D959 /* Main.storyboard */,
 				EC012E951EE825B200F1D959 /* Assets.xcassets */,
 				EC012E971EE825B200F1D959 /* LaunchScreen.storyboard */,
@@ -70,8 +75,9 @@
 				EC012EA21EE82AC000F1D959 /* ParisViewController.swift */,
 				EC012EA31EE82AC000F1D959 /* ParisViewController.xib */,
 				EC012EA61EE82F6D00F1D959 /* ParisRetriever.swift */,
-				ECA1D5C21EE848A6006D0561 /* HomePageViewController.swift */,
-				ECA1D5C31EE848A6006D0561 /* HomePageViewController.xib */,
+				EC012EAA1EE8373B00F1D959 /* ResultViewController.swift */,
+				EC012EAB1EE8373B00F1D959 /* ResultViewController.xib */,
+				EC012EAE1EE8426500F1D959 /* Pari.swift */,
 			);
 			path = ManageBet;
 			sourceTree = "<group>";
@@ -136,9 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC012E991EE825B200F1D959 /* LaunchScreen.storyboard in Resources */,
-				ECA1D5C51EE848A6006D0561 /* HomePageViewController.xib in Resources */,
 				EC012E961EE825B200F1D959 /* Assets.xcassets in Resources */,
 				EC012EA51EE82AC000F1D959 /* ParisViewController.xib in Resources */,
+				EC012EAD1EE8373B00F1D959 /* ResultViewController.xib in Resources */,
 				EC012E941EE825B200F1D959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC012EAC1EE8373B00F1D959 /* ResultViewController.swift in Sources */,
+				EC012EAF1EE8426500F1D959 /* Pari.swift in Sources */,
+				EC012E911EE825B200F1D959 /* ViewController.swift in Sources */,
 				EC012EA41EE82AC000F1D959 /* ParisViewController.swift in Sources */,
 				EC012EA71EE82F6D00F1D959 /* ParisRetriever.swift in Sources */,
-				ECA1D5C41EE848A6006D0561 /* HomePageViewController.swift in Sources */,
 				EC012E8F1EE825B200F1D959 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +323,6 @@
 				EC012E9F1EE825B200F1D959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

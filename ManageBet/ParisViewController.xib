@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ParisViewController" customModule="ManageBet" customModuleProvider="target">
             <connections>
-                <outlet property="matchTableView" destination="gwL-hW-uZR" id="0AL-X8-Wsx"/>
                 <outlet property="pickSport" destination="dkH-zs-2Si" id="JTj-j1-zUC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
